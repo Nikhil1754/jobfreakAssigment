@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Left Panel Example</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="left-panel">
+    <ul class="left-sub">
+      <li id="home-component" class="component active" onclick="showContent('home')">Home</li>
+      <li id="contact-component" class="component" onclick="showContent('contact')">Contact</li>
+      <li id="information-component" class="component" onclick="showContent('information')">Information</li>
+      <li id="guide-component" class="component" onclick="showContent('guide')">Guide</li>
+    </ul>
+  </div>
+  
+  <div class="content">
+    <div id="home" class="content-item">
+      <h2>Welcome to the Home Page</h2>
+      <p>This is the content for the Home page.</p>
+    </div>
+    
+    <div id="contact" class="content-item" style="display: none;">
+      <h2>Contact Information</h2>
+      <p>This is the contact information.</p>
+    </div>
+    
+    <div id="information" class="content-item" style="display: none;">
+      <h2>Information</h2>
+      <p>This is some information.</p>
+    </div>
+    
+    <div id="guide" class="content-item" style="display: none;">
+      <h2>Guide</h2>
+      <p>This is a guide.</p>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(31, 29, 29);
+    color:white;
+}
+.left-panel {
+    background-color: rgb(28, 26, 26);
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    float:left;
+  }
+  li{
+    list-style: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* CSS for content area */
+  .content {
+    margin-left: 20%;
+    padding: 20px;
+  }
+  
+  /* CSS for active component */
+  .active {
+    font-weight: bold;
+  }
